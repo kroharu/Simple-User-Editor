@@ -3,7 +3,7 @@ Simple application to work with users made with Qt
 
 ![Preview](empty_main.png)
 
-##How to work with this app:
+## How to work with this app:
 
 1) Press the "Add" button and input the information into the suitable text boxes (note that you must fill every box with text except "Post Code", "Home phone" and "Mobile phone" boxes - there you should write only numbers)
 
@@ -17,4 +17,4 @@ Simple application to work with users made with Qt
 
 ![Preview](remove_user.png)
 
-###Enjoy!
+### Enjoy!
