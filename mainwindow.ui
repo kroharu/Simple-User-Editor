@@ -6,12 +6,47 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>801</width>
+    <height>587</height>
    </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
   </property>
   <property name="windowTitle">
    <string>Simple user editor</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-family: Century Gothic, sans-serif;
+}
+QFrame{
+background-color:green;
+}
+QListWidget{
+color:#8d98a1;
+background-color:#405361;
+font-size:18px;
+border-style:outset;
+border-radius:10px;
+}
+QLabel{
+background:rgba(85,179,255,0);
+color:white;
+font-style:italic bold;
+}
+QPushButton{
+background:#ced1d8;
+border-style:outset;
+border-radius:10px;
+}
+QPushButton:pressed{
+background-color:rgb(224,0,0);
+border-style:inset;
+}</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
@@ -25,7 +60,9 @@
     </property>
     <property name="font">
      <font>
+      <family>Century Gothic</family>
       <pointsize>12</pointsize>
+      <italic>true</italic>
       <bold>true</bold>
      </font>
     </property>
@@ -83,7 +120,9 @@
     </property>
     <property name="font">
      <font>
+      <family>Century Gothic</family>
       <pointsize>12</pointsize>
+      <italic>true</italic>
       <bold>true</bold>
      </font>
     </property>
@@ -322,18 +361,89 @@
      </rect>
     </property>
    </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+font-family: Century Gothic, sans-serif;
+}
+
+QLineEdit{
+color:#8d98a1;
+background-color:#405361;
+font-size:18px;
+border-style:outset;
+border-radius:10px;
+}
+QLabel{
+background:rgba(85,179,255,0);
+color:white;
+font-style:italic bold;
+}
+QDateEdit{
+color:#8d98a1;
+background-color:#405361;
+font-size:18px;
+border-style:outset;
+border-radius:10px;
+}
+QComboBox{
+color:#8d98a1;
+background-color:#405361;
+font-size:18px;
+border-style:outset;
+border-radius:10px;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <zorder>frame</zorder>
+   <zorder>label</zorder>
+   <zorder>widget_users</zorder>
+   <zorder>add_button</zorder>
+   <zorder>remove_button</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_9</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_11</zorder>
+   <zorder>label_1name</zorder>
+   <zorder>label_city</zorder>
+   <zorder>label_state</zorder>
+   <zorder>label_birth</zorder>
+   <zorder>label_postcode</zorder>
+   <zorder>label_2name</zorder>
+   <zorder>label_address</zorder>
+   <zorder>label_gender</zorder>
+   <zorder>widget_phones</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>26</height>
+     <width>801</width>
+     <height>24</height>
     </rect>
    </property>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>

@@ -17,7 +17,7 @@ typedef struct s_address
 
 typedef struct s_phone
 {
-     long long  number;
+     QString    number;
      QString    type;
 }   t_phone;
 

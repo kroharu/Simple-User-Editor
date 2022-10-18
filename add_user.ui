@@ -13,6 +13,40 @@
   <property name="windowTitle">
    <string>Add user</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-family: Century Gothic, sans-serif;
+}
+QFrame{
+background-color:green;
+}
+QLineEdit{
+color:#8d98a1;
+background-color:#405361;
+font-size:18px;
+border-style:outset;
+border-radius:10px;
+}
+QLabel{
+background:rgba(85,179,255,0);
+color:white;
+font-style:italic bold;
+}
+QDateEdit{
+color:#8d98a1;
+background-color:#405361;
+font-size:18px;
+border-style:outset;
+border-radius:10px;
+}
+QComboBox{
+color:#8d98a1;
+background-color:#405361;
+font-size:18px;
+border-style:outset;
+border-radius:10px;
+}</string>
+  </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
@@ -24,7 +58,9 @@
    </property>
    <property name="font">
     <font>
+     <family>Century Gothic</family>
      <pointsize>14</pointsize>
+     <italic>true</italic>
      <bold>true</bold>
     </font>
    </property>
@@ -35,7 +71,7 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>10</x>
      <y>50</y>
      <width>91</width>
      <height>20</height>
@@ -43,7 +79,9 @@
    </property>
    <property name="font">
     <font>
+     <family>Century Gothic</family>
      <pointsize>10</pointsize>
+     <italic>true</italic>
     </font>
    </property>
    <property name="text">
@@ -53,15 +91,17 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>10</x>
      <y>90</y>
-     <width>91</width>
+     <width>111</width>
      <height>20</height>
     </rect>
    </property>
    <property name="font">
     <font>
+     <family>Century Gothic</family>
      <pointsize>10</pointsize>
+     <italic>true</italic>
     </font>
    </property>
    <property name="text">
@@ -71,15 +111,17 @@
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>10</x>
      <y>130</y>
-     <width>63</width>
+     <width>81</width>
      <height>20</height>
     </rect>
    </property>
    <property name="font">
     <font>
+     <family>Century Gothic</family>
      <pointsize>10</pointsize>
+     <italic>true</italic>
     </font>
    </property>
    <property name="text">
@@ -89,15 +131,17 @@
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>10</x>
      <y>170</y>
-     <width>101</width>
+     <width>121</width>
      <height>20</height>
     </rect>
    </property>
    <property name="font">
     <font>
+     <family>Century Gothic</family>
      <pointsize>10</pointsize>
+     <italic>true</italic>
     </font>
    </property>
    <property name="text">
@@ -107,15 +151,17 @@
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>10</x>
      <y>210</y>
-     <width>63</width>
+     <width>81</width>
      <height>20</height>
     </rect>
    </property>
    <property name="font">
     <font>
+     <family>Century Gothic</family>
      <pointsize>10</pointsize>
+     <italic>true</italic>
     </font>
    </property>
    <property name="text">
@@ -125,7 +171,7 @@
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>10</x>
      <y>290</y>
      <width>63</width>
      <height>20</height>
@@ -133,7 +179,9 @@
    </property>
    <property name="font">
     <font>
+     <family>Century Gothic</family>
      <pointsize>10</pointsize>
+     <italic>true</italic>
     </font>
    </property>
    <property name="text">
@@ -143,15 +191,17 @@
   <widget class="QLabel" name="label_8">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>10</x>
      <y>330</y>
-     <width>91</width>
+     <width>101</width>
      <height>20</height>
     </rect>
    </property>
    <property name="font">
     <font>
+     <family>Century Gothic</family>
      <pointsize>10</pointsize>
+     <italic>true</italic>
     </font>
    </property>
    <property name="text">
@@ -161,7 +211,7 @@
   <widget class="QLabel" name="label_9">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>10</x>
      <y>250</y>
      <width>63</width>
      <height>20</height>
@@ -169,7 +219,9 @@
    </property>
    <property name="font">
     <font>
+     <family>Century Gothic</family>
      <pointsize>10</pointsize>
+     <italic>true</italic>
     </font>
    </property>
    <property name="text">
@@ -179,15 +231,17 @@
   <widget class="QLabel" name="label_10">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>10</x>
      <y>370</y>
-     <width>111</width>
+     <width>121</width>
      <height>20</height>
     </rect>
    </property>
    <property name="font">
     <font>
+     <family>Century Gothic</family>
      <pointsize>10</pointsize>
+     <italic>true</italic>
     </font>
    </property>
    <property name="text">
@@ -197,39 +251,21 @@
   <widget class="QLabel" name="label_11">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>10</x>
      <y>410</y>
-     <width>121</width>
+     <width>131</width>
      <height>20</height>
     </rect>
    </property>
    <property name="font">
     <font>
+     <family>Century Gothic</family>
      <pointsize>10</pointsize>
+     <italic>true</italic>
     </font>
    </property>
    <property name="text">
     <string>Mobile phone:</string>
-   </property>
-  </widget>
-  <widget class="QTextEdit" name="add_1name">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>40</y>
-     <width>381</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QTextEdit" name="add_2name">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>80</y>
-     <width>381</width>
-     <height>31</height>
-    </rect>
    </property>
   </widget>
   <widget class="QComboBox" name="box_gender">
@@ -255,56 +291,6 @@
     <string>M.d.yyyy</string>
    </property>
   </widget>
-  <widget class="QTextEdit" name="add_address">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>200</y>
-     <width>381</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QTextEdit" name="add_state">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>280</y>
-     <width>381</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QTextEdit" name="add_postcode">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>320</y>
-     <width>381</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QTextEdit" name="add_hphone">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>360</y>
-     <width>381</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QTextEdit" name="add_mphone">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>400</y>
-     <width>381</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QDialogButtonBox" name="buttonBox">
    <property name="geometry">
     <rect>
@@ -318,7 +304,46 @@
     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
    </property>
   </widget>
-  <widget class="QTextEdit" name="add_city">
+  <widget class="QLineEdit" name="add_1name">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>45</y>
+     <width>381</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Ivan</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="add_2name">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>80</y>
+     <width>381</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Ruzavin</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="add_address">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>200</y>
+     <width>381</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Lazarevacki drum</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="add_city">
    <property name="geometry">
     <rect>
      <x>150</x>
@@ -327,7 +352,104 @@
      <height>31</height>
     </rect>
    </property>
+   <property name="placeholderText">
+    <string>Beograd</string>
+   </property>
   </widget>
+  <widget class="QLineEdit" name="add_state">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>280</y>
+     <width>381</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Beograd</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="add_postcode">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>320</y>
+     <width>381</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>11030</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="add_hphone">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>360</y>
+     <width>381</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>+71234567890</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="add_mphone">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>400</y>
+     <width>381</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>+3811234567890</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>561</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <zorder>frame</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_11</zorder>
+  <zorder>box_gender</zorder>
+  <zorder>date_birth</zorder>
+  <zorder>buttonBox</zorder>
+  <zorder>add_1name</zorder>
+  <zorder>add_2name</zorder>
+  <zorder>add_address</zorder>
+  <zorder>add_city</zorder>
+  <zorder>add_state</zorder>
+  <zorder>add_postcode</zorder>
+  <zorder>add_hphone</zorder>
+  <zorder>add_mphone</zorder>
  </widget>
  <resources/>
  <connections/>

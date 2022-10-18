@@ -59,8 +59,8 @@ void MainWindow::on_widget_users_itemClicked(QListWidgetItem *item) // choosing 
     ui->label_city->setText(users.at(i)->getAddress().city);
     ui->label_state->setText(users.at(i)->getAddress().state);
     ui->label_postcode->setText(QString::number(users.at(i)->getAddress().postalCode));
-    ui->widget_phones->addItem("home: " + QString::number(users.at(i)->getPhoneNumbers()[0].number));
-    ui->widget_phones->addItem("mobile: " + QString::number(users.at(i)->getPhoneNumbers()[1].number));
+    ui->widget_phones->addItem("home: " + users.at(i)->getPhoneNumbers()[0].number);
+    ui->widget_phones->addItem("mobile: " + users.at(i)->getPhoneNumbers()[1].number);
 }
 
 void MainWindow::terminator(AddUser *ptr)  // helps to close add_user window correctly if the cancel button was pressed

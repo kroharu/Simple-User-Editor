@@ -78,11 +78,11 @@ User::User(QJsonObject obj)     // filling one user in the list with the whole i
                             obj.value("address").toObject().value("streetAddress").toString()
                         });
     appendPhoneNumbers({
-                           obj.value("phoneNumbers").toArray()[0].toObject().value("number").toInt(),
+                           obj.value("phoneNumbers").toArray()[0].toObject().value("number").toString(),
                            obj.value("phoneNumbers").toArray()[0].toObject().value("type").toString()
                        });
     appendPhoneNumbers({
-                           obj.value("phoneNumbers").toArray()[1].toObject().value("number").toInt(),
+                           obj.value("phoneNumbers").toArray()[1].toObject().value("number").toString(),
                            obj.value("phoneNumbers").toArray()[1].toObject().value("type").toString()
                        });
 }

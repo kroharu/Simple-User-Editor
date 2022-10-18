@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include <QPushButton>
+#include <QRegExpValidator>
 #include "user.h"
 
 namespace Ui {
